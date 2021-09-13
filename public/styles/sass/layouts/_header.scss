@@ -1,0 +1,9 @@
+header{
+    flex: 1 0 100%;
+    padding: 2.5rem 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background: url("/public/images/bg-hero-desktop.svg");
+    background-color: $very-pale-cyan;
+}

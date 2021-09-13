@@ -1,0 +1,41 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4.75rem;
+    &__logo{
+        // background: url('/public/images/logo.svg');
+    }
+    &__btn{
+        height: max-content;
+        margin-top: .75rem;
+        padding: .8rem 4.25rem;
+        border-radius: 50rem;
+        box-shadow: 0 5px 10px 0px $grayish-blue;
+    }
+
+    &__cta{
+        flex: 0 0 48%;
+        padding-top: 3rem;
+        h1 {
+            max-width: 17ch;
+        }
+        &--content{
+            max-width: 52ch;
+            padding-bottom: 3rem;
+        }
+        &--btn{
+            display: inline-block;
+            border-radius: 50rem;
+            padding: .8rem 4.25rem;
+            color: white;
+            background-color: $primary-pink;
+        }
+        &--image{
+            flex: 1;
+
+            & img {
+                width: 100%;
+            }
+        }
+    }
+}

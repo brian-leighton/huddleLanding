@@ -1,0 +1,13 @@
+body, html, ::after, ::before, p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, main, footer{
+    max-width: 1444px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

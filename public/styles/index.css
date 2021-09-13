@@ -1,0 +1,147 @@
+body, html, ::after, ::before, p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, main, footer {
+  max-width: 1444px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.banner {
+  flex: 1 0 100%;
+}
+.banner__logo {
+  height: max-content;
+}
+.banner__btn {
+  background: white;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  color: #00252e;
+}
+.banner__cta p {
+  font-family: "Open Sans", sans-serif;
+}
+.banner__cta h1 {
+  font-family: "Poppins", sans-serif;
+  color: #00252e;
+  font-size: 2.5rem;
+}
+.banner__cta--content {
+  font-size: 1.12rem;
+  font-weight: 400;
+  color: #00252e;
+}
+.banner__cta--btn {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.card:first-of-type {
+  margin-top: 5rem;
+}
+.card:not(:last-of-type) {
+  margin-bottom: 5rem;
+}
+.card__content h2 {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #00252e;
+}
+.card__content p {
+  max-width: 50ch;
+  color: #808d99;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.12rem;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4.75rem;
+}
+.banner__btn {
+  height: max-content;
+  margin-top: 0.75rem;
+  padding: 0.8rem 4.25rem;
+  border-radius: 50rem;
+  box-shadow: 0 5px 10px 0px #808d99;
+}
+.banner__cta {
+  flex: 0 0 48%;
+  padding-top: 3rem;
+}
+.banner__cta h1 {
+  max-width: 17ch;
+}
+.banner__cta--content {
+  max-width: 52ch;
+  padding-bottom: 3rem;
+}
+.banner__cta--btn {
+  display: inline-block;
+  border-radius: 50rem;
+  padding: 0.8rem 4.25rem;
+  color: white;
+  background-color: #ff52bf;
+}
+.banner__cta--image {
+  flex: 1;
+}
+.banner__cta--image img {
+  width: 100%;
+}
+
+header {
+  flex: 1 0 100%;
+  padding: 2.5rem 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  background: url("/public/images/bg-hero-desktop.svg");
+  background-color: #ebfbff;
+}
+
+main {
+  width: 100%;
+  padding-bottom: 5rem;
+}
+
+.card {
+  background: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid #ebfbff;
+  border-radius: 0.7rem;
+  display: flex;
+  padding: 1.5rem 4rem;
+  box-sizing: border-box;
+  box-shadow: 0 0 6px 0 #808d99;
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card__content:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+.card__image {
+  flex: 1 0 45%;
+  margin: 0 0 0 8rem;
+}
+.card__image:nth-last-of-type(2n) {
+  margin: 0 8rem 0 0;
+}
+.card__image img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=index.css.map */
